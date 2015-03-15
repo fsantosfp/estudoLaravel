@@ -1,0 +1,130 @@
+[2015-03-04 20:35:26] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Applications/MAMP/htdocs/estudo/bootstrap/compiled.php:5747
+Stack trace:
+#0 /Applications/MAMP/htdocs/estudo/bootstrap/compiled.php(5069): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /Applications/MAMP/htdocs/estudo/bootstrap/compiled.php(5057): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Applications/MAMP/htdocs/estudo/bootstrap/compiled.php(5049): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /Applications/MAMP/htdocs/estudo/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /Applications/MAMP/htdocs/estudo/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /Applications/MAMP/htdocs/estudo/bootstrap/compiled.php(7821): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /Applications/MAMP/htdocs/estudo/bootstrap/compiled.php(8428): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /Applications/MAMP/htdocs/estudo/bootstrap/compiled.php(8375): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /Applications/MAMP/htdocs/estudo/bootstrap/compiled.php(11038): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /Applications/MAMP/htdocs/estudo/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /Applications/MAMP/htdocs/estudo/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-03-04 21:19:13] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Applications/MAMP/htdocs/estudo/bootstrap/compiled.php:5747
+Stack trace:
+#0 /Applications/MAMP/htdocs/estudo/bootstrap/compiled.php(5069): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /Applications/MAMP/htdocs/estudo/bootstrap/compiled.php(5057): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Applications/MAMP/htdocs/estudo/bootstrap/compiled.php(5049): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /Applications/MAMP/htdocs/estudo/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /Applications/MAMP/htdocs/estudo/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /Applications/MAMP/htdocs/estudo/bootstrap/compiled.php(7821): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /Applications/MAMP/htdocs/estudo/bootstrap/compiled.php(8428): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /Applications/MAMP/htdocs/estudo/bootstrap/compiled.php(8375): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /Applications/MAMP/htdocs/estudo/bootstrap/compiled.php(11038): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /Applications/MAMP/htdocs/estudo/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /Applications/MAMP/htdocs/estudo/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-03-04 21:19:13] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Applications/MAMP/htdocs/estudo/bootstrap/compiled.php:5747
+Stack trace:
+#0 /Applications/MAMP/htdocs/estudo/bootstrap/compiled.php(5069): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /Applications/MAMP/htdocs/estudo/bootstrap/compiled.php(5057): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Applications/MAMP/htdocs/estudo/bootstrap/compiled.php(5049): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /Applications/MAMP/htdocs/estudo/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /Applications/MAMP/htdocs/estudo/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /Applications/MAMP/htdocs/estudo/bootstrap/compiled.php(7821): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /Applications/MAMP/htdocs/estudo/bootstrap/compiled.php(8428): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /Applications/MAMP/htdocs/estudo/bootstrap/compiled.php(8375): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /Applications/MAMP/htdocs/estudo/bootstrap/compiled.php(11038): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /Applications/MAMP/htdocs/estudo/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /Applications/MAMP/htdocs/estudo/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-03-12 20:12:11] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected ')', expecting '{'' in /Applications/MAMP/htdocs/estudo/app/routes.php:27
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-03-12 20:13:19] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected ')', expecting '{'' in /Applications/MAMP/htdocs/estudo/app/routes.php:29
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-03-12 20:13:23] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected ')', expecting '{'' in /Applications/MAMP/htdocs/estudo/app/routes.php:29
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-03-12 20:21:21] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Applications/MAMP/htdocs/estudo/bootstrap/compiled.php:5747
+Stack trace:
+#0 /Applications/MAMP/htdocs/estudo/bootstrap/compiled.php(5069): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /Applications/MAMP/htdocs/estudo/bootstrap/compiled.php(5057): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Applications/MAMP/htdocs/estudo/bootstrap/compiled.php(5049): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /Applications/MAMP/htdocs/estudo/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /Applications/MAMP/htdocs/estudo/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /Applications/MAMP/htdocs/estudo/bootstrap/compiled.php(7821): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /Applications/MAMP/htdocs/estudo/bootstrap/compiled.php(8428): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /Applications/MAMP/htdocs/estudo/bootstrap/compiled.php(8375): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /Applications/MAMP/htdocs/estudo/bootstrap/compiled.php(11038): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /Applications/MAMP/htdocs/estudo/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /Applications/MAMP/htdocs/estudo/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-03-15 01:52:40] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined function setTt1()' in /Applications/MAMP/htdocs/estudo/app/routes.php:18
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-03-15 14:58:23] production.ERROR: exception 'Symfony\Component\HttpFoundation\File\Exception\FileNotFoundException' with message 'The file "/Ebook_Analytics_2.pdf" does not exist' in /Applications/MAMP/htdocs/estudo/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/File/File.php:41
+Stack trace:
+#0 /Applications/MAMP/htdocs/estudo/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/BinaryFileResponse.php(90): Symfony\Component\HttpFoundation\File\File->__construct('/Ebook_Analytic...')
+#1 /Applications/MAMP/htdocs/estudo/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/BinaryFileResponse.php(49): Symfony\Component\HttpFoundation\BinaryFileResponse->setFile('/Ebook_Analytic...', 'attachment', false, true)
+#2 /Applications/MAMP/htdocs/estudo/vendor/laravel/framework/src/Illuminate/Support/Facades/Response.php(102): Symfony\Component\HttpFoundation\BinaryFileResponse->__construct('/Ebook_Analytic...', 200, Array, true, 'attachment')
+#3 /Applications/MAMP/htdocs/estudo/app/routes.php(19): Illuminate\Support\Facades\Response::download('/Ebook_Analytic...')
+#4 [internal function]: {closure}()
+#5 /Applications/MAMP/htdocs/estudo/bootstrap/compiled.php(5394): call_user_func_array(Object(Closure), Array)
+#6 /Applications/MAMP/htdocs/estudo/bootstrap/compiled.php(5061): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#7 /Applications/MAMP/htdocs/estudo/bootstrap/compiled.php(5049): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#8 /Applications/MAMP/htdocs/estudo/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 /Applications/MAMP/htdocs/estudo/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 /Applications/MAMP/htdocs/estudo/bootstrap/compiled.php(7821): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#11 /Applications/MAMP/htdocs/estudo/bootstrap/compiled.php(8428): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#12 /Applications/MAMP/htdocs/estudo/bootstrap/compiled.php(8375): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#13 /Applications/MAMP/htdocs/estudo/bootstrap/compiled.php(11038): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#14 /Applications/MAMP/htdocs/estudo/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#15 /Applications/MAMP/htdocs/estudo/public/index.php(49): Illuminate\Foundation\Application->run()
+#16 {main} [] []
+[2015-03-15 14:58:38] production.ERROR: exception 'Symfony\Component\HttpFoundation\File\Exception\FileNotFoundException' with message 'The file "/Ebook_Analytics_2.pdf" does not exist' in /Applications/MAMP/htdocs/estudo/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/File/File.php:41
+Stack trace:
+#0 /Applications/MAMP/htdocs/estudo/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/BinaryFileResponse.php(90): Symfony\Component\HttpFoundation\File\File->__construct('/Ebook_Analytic...')
+#1 /Applications/MAMP/htdocs/estudo/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/BinaryFileResponse.php(49): Symfony\Component\HttpFoundation\BinaryFileResponse->setFile('/Ebook_Analytic...', 'attachment', false, true)
+#2 /Applications/MAMP/htdocs/estudo/vendor/laravel/framework/src/Illuminate/Support/Facades/Response.php(102): Symfony\Component\HttpFoundation\BinaryFileResponse->__construct('/Ebook_Analytic...', 200, Array, true, 'attachment')
+#3 /Applications/MAMP/htdocs/estudo/app/routes.php(19): Illuminate\Support\Facades\Response::download('/Ebook_Analytic...')
+#4 [internal function]: {closure}()
+#5 /Applications/MAMP/htdocs/estudo/bootstrap/compiled.php(5394): call_user_func_array(Object(Closure), Array)
+#6 /Applications/MAMP/htdocs/estudo/bootstrap/compiled.php(5061): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#7 /Applications/MAMP/htdocs/estudo/bootstrap/compiled.php(5049): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#8 /Applications/MAMP/htdocs/estudo/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 /Applications/MAMP/htdocs/estudo/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 /Applications/MAMP/htdocs/estudo/bootstrap/compiled.php(7821): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#11 /Applications/MAMP/htdocs/estudo/bootstrap/compiled.php(8428): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#12 /Applications/MAMP/htdocs/estudo/bootstrap/compiled.php(8375): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#13 /Applications/MAMP/htdocs/estudo/bootstrap/compiled.php(11038): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#14 /Applications/MAMP/htdocs/estudo/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#15 /Applications/MAMP/htdocs/estudo/public/index.php(49): Illuminate\Foundation\Application->run()
+#16 {main} [] []
+[2015-03-15 16:07:34] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '<'' in /Applications/MAMP/htdocs/estudo/app/views/birthday.php:3
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-03-15 16:08:32] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '<'' in /Applications/MAMP/htdocs/estudo/app/views/birthday.php:3
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-03-15 16:09:12] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '<'' in /Applications/MAMP/htdocs/estudo/app/views/birthday.php:3
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-03-15 16:10:21] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '<'' in /Applications/MAMP/htdocs/estudo/app/views/birthday.php:3
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-03-15 16:11:05] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '<'' in /Applications/MAMP/htdocs/estudo/app/views/birthday.php:3
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
