@@ -32,14 +32,14 @@ App::after(function($request, $response)
 | integrates HTTP Basic authentication for quick, simple checking.
 |
 */
-
+/*
 Route::filter('birthday',function()
 {
 	if(true){
 		return View::make('birthday');
 	}
 });
-
+*/
 Route::filter('auth', function()
 {
 	if (Auth::guest())
